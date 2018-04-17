@@ -8,14 +8,15 @@ import classfour.worker.Worker;
 
 public class four {
     public static void main(String[] args) {
-        //testWorker();
+        testWorker();
+        System.out.println("-----------------------------------------------");
         testShape();
     }
 
     public static void testWorker() {
         HourlyWorker hourlyWorker = new HourlyWorker("王", "天锐",
                 15.75, 0);
-        System.out.println(hourlyWorker + "工资为:" + hourlyWorker.earnings());
+        System.out.println(hourlyWorker + "当前工资为:" + hourlyWorker.earnings());
         hourlyWorker.setHours(13.72);
         System.out.println(hourlyWorker + "工作13.7小时后工资为:" + hourlyWorker.earnings());
         hourlyWorker.setWage(12.01);
