@@ -1,4 +1,4 @@
-package classone;
+package classthree;
 
 public class Three {
     protected int test = 1;
