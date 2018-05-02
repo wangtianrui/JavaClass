@@ -1,4 +1,4 @@
-package classfive;
+package classfive.teachers;
 
 public class PythonTeacher extends Teacher {
     @Override

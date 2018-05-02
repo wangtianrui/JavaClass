@@ -1,4 +1,4 @@
-package classfive;
+package classfive.teachers;
 
 public class JavaTeacher extends Teacher {
     @Override
