@@ -2,7 +2,7 @@ package classseven;
 
 import java.io.*;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         /**
          * txt文件查找
