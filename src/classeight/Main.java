@@ -3,7 +3,7 @@ package classeight;
 public class Main {
     public static void main(String[] args) throws InterruptedException {
 //        test1();
-//        test2();
+        test2();
     }
 
     private static void test1(){
